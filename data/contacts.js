@@ -1,27 +1,28 @@
 export const contacts = [
   {
     id: 1,
-    name: "Rohan",
+    name: "Rohan Sharma",
     phone: "",
   },
   {
     id: 2,
-    name: "Mohit",
+    name: "Mohit Kumar",
     phone: "",
   },
   {
     id: 3,
-    name: "Rohit",
+    name: "Ashutosh Verma",
     phone: "",
   },
   {
     id: 4,
-    name: "Rohan",
+    name: "Sonakshi",
     phone: "",
   },
   {
     id: 5,
-    name: "Rohan",
+    name: "Jhanvi Kapoor",
     phone: "",
   },
 ];
+
