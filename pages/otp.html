@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css" />
+  <title>OTP Verification</title>
+</head>
+
+<body>
+  <section class="home-page">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-lg-8">
+              <div class="home-content">
+                <img src="/images/vspagy-logo.png" alt="Logo" class="logo" />
+                <h1>Advisor Referral Program</h1>
+                <p>
+                  A program designed to empower you, your friends and your
+                  family.
+                </p>
+                <div class="home-list">
+                  <ul class="d-flex list-unstyled mb-0">
+                    <li class="d-flex align-items-center gap-2"><img src="/images/grow-icon.png" alt="">Grow</li>
+                    <li class="d-flex align-items-center gap-2"><img src="/images/succeed-icon.png" alt="">Succeed</li>
+                    <li class="d-flex align-items-center gap-2"><img src="/images/empower-icon.png" alt="">Empower</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-xl-4 col-sm-12 col-md-12 col-xs-12 home">
+              <div class="p-4 login-card form-bg">
+                <h1 class="fw-semibold mb-1">Login</h1>
+                <p class="mb-4">Welcome back mate!</p>
+
+                <p class="small mb-3">
+                  Enter the OTP sent to <span id="mobileDisplay" class="fw-normal"></span> or
+                  <a href="/index.html" class="text-decoration-none">Change Number</a>
+                </p>
+
+                <div class="d-flex justify-content-between mb-3">
+                  <input type="text" maxlength="1" class="form-control otp-input" />
+                  <input type="text" maxlength="1" class="form-control otp-input" />
+                  <input type="text" maxlength="1" class="form-control otp-input" />
+                  <input type="text" maxlength="1" class="form-control otp-input" />
+                  <input type="text" maxlength="1" class="form-control otp-input" />
+                  <input type="text" maxlength="1" class="form-control otp-input" />
+                </div>
+                <span id="otpError" class="text-danger small d-block mb-3"></span>
+
+                <div class="mb-4">
+                  <span class="small text-muted">OTP not received?</span>
+                  <button class="small border-none ms-1 text-primary" type="button" style="cursor: pointer;"
+                    id="resendOtp"><img src="/images/resend-icon.png" alt="" class="resend-icon">Resend</button>
+                </div>
+
+                <button class="btn w-100" onclick="verifyOTP()" id="verifyBtn">Verify & Login</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="toast"></div>
+  </section>
+
+  <script src="/js/sendOtp.js" type="module"></script>
+  <script src="/js/otpVerify.js" type="module"></script>
+  <script src="/js/script.js" type="module"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
