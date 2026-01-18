@@ -153,6 +153,9 @@ img.resend-icon {
   border: 1px solid #e4e4e4;
   width: 100%;
 }
+.contact-text{
+  font-size: 22px;
+}
 .nav-tabs .nav-link.active {
   border-bottom: 2px solid #0943a6;
 }
@@ -227,10 +230,14 @@ img.resend-icon {
   #updateBtn{
     font-size: 16px;
   }
+  .contact-text{
+     font-size: 18px;
+  }
   #contactList .col-lg-3:last-child {
-  margin-bottom: 80px;
+     margin-bottom: 80px;
+  }
 }
-}
+
 
 
 
