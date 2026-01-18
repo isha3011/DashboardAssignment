@@ -224,6 +224,13 @@ img.resend-icon {
     padding: 0px;
     margin-top: 187px;
   }
+  #updateBtn{
+    font-size: 16px;
+  }
+  #contactList .col-lg-3:last-child {
+  margin-bottom: 80px;
 }
+}
+
 
 
