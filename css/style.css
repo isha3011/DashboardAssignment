@@ -6,7 +6,7 @@ body {
 }
 .home-page {
   height: 100vh;
-  background-image: url("/images/bg-img.png");
+  background-image: url("images/bg-img.png");
   background-size: cover;
   flex-direction: column;
 }
@@ -63,7 +63,7 @@ img.logo {
 }
 .form-bg {
   height: 100vh;
-  background-image: url("/images/bg.png");
+  background-image: url("images/bg.png");
   background-size: cover;
   flex-direction: column;
   padding-left: 60px;
@@ -225,3 +225,4 @@ img.resend-icon {
     margin-top: 187px;
   }
 }
+
